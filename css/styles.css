@@ -1,0 +1,198 @@
+body {
+  font-family: Bebas Neue Regular;
+  text-align: center;
+}
+
+h1 {
+  font-family: Ultra, serif;
+  padding-bottom: 15%
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: Ultra, serif;
+}
+
+h2 {
+  font-weight: 900;
+}
+
+h3 {
+  font-weight: 900;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+
+}
+
+/*Headings */
+
+.big-heading {
+  font-family: Ultra, serif;
+  color: white;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+}
+
+
+
+/* Navigation Bar */
+
+.navbar {
+  padding-bottom: 4.5rem ;
+}
+
+.navbar-brand {
+  font-family: Bebas Neue Regular;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+  font-family: Bebas Neue Regular;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: Bebas Neue Regular;
+  font-weight: 100;
+}
+
+/* Download Buttons */
+
+.donwload-button {
+  margin: 5% 3% 5% 0;
+}
+
+/*Title Section*/
+
+#title {
+  background-color: #99621e;
+  color: #FFFFFF;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.title-image {
+  width: 35%;
+  position: absolute;
+}
+
+/* Feature Section */
+
+#features {
+  background-color: #D38B5D;
+  position: relative;
+  z-index: 1;
+}
+
+.product-image {
+  width: 80%;
+  padding-bottom: 10px;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  color: #99621E;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+
+
+}
+
+.target {
+  width: 15%;
+  margin: 100px;
+}
+
+
+#press {
+  background-color: #d38b5d;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.retailers {
+  font-family: Ultra, serif;
+  color: white;
+  font-size: 30px;
+  padding-top: 2%
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+  opacity: 75%;
+}
+
+/* pricing */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+  background-color: #739e82;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Call To Action */
+
+#cta {
+  background-color: #d38b5d;
+  text-align: center;
+  padding: 50px;
+}
+
+/*Footer Section*/
+
+#footer {
+  background-color: #99621E;
+  font-family: Bebas Neue Regular;
+  color: white;
+  text-align: center;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
+}
